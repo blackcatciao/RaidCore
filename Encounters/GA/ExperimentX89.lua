@@ -31,7 +31,7 @@ mod:RegisterEnglishLocale({
     -- Message bars.
     ["KNOCKBACK"] = "KNOCKBACK",
     ["SPEW"] = "SPEW",
-    ["SHOCKWAVE"] = "SHOCKWAVE,"
+    ["SHOCKWAVE"] = "SHOCKWAVE"，
 })
 mod:RegisterFrenchLocale({
     -- Unit names.
