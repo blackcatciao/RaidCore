@@ -32,6 +32,7 @@ mod:RegisterEnglishLocale({
     ["KNOCKBACK"] = "KNOCKBACK",
     ["SPEW"] = "SPEW",
     ["SHOCKWAVE"] = "SHOCKWAVE,"
+})
 mod:RegisterFrenchLocale({
     -- Unit names.
     ["Experiment X-89"] = "Expérience X-89",
@@ -65,7 +66,6 @@ mod:RegisterGermanLocale({
     ["KNOCKBACK"] = "RÜCKSTOß",
     ["SPEW"] = "ERBROCHENES",
     ["SHOCKWAVE"] = "SCHOCKWELLE",
-})
 })
 mod:RegisterChineseLocale({
     -- Unit names.
