@@ -31,8 +31,7 @@ mod:RegisterEnglishLocale({
     -- Message bars.
     ["KNOCKBACK"] = "KNOCKBACK",
     ["SPEW"] = "SPEW",
-    ["SHOCKWAVE"] = "SHOCKWAVE",
-})
+    ["SHOCKWAVE"] = "SHOCKWAVE,"
 mod:RegisterFrenchLocale({
     -- Unit names.
     ["Experiment X-89"] = "Expérience X-89",
@@ -66,6 +65,25 @@ mod:RegisterGermanLocale({
     ["KNOCKBACK"] = "RÜCKSTOß",
     ["SPEW"] = "ERBROCHENES",
     ["SHOCKWAVE"] = "SCHOCKWELLE",
+})
+})
+mod:RegisterChineseLocale({
+    -- Unit names.
+    ["Experiment X-89"] = "实验体X-89",
+    -- Datachron messages.
+    ---- This entry is used with string.match, so the dash in X-89 needs to be escaped.
+    ["Experiment X-89 has placed a bomb"] = "实验体X-89在 (.*)身上放置了一枚炸弹!",
+    -- Cast.
+    ["Shattering Shockwave"] = "粉碎冲击波",
+    ["Repugnant Spew"] = "反胃喷吐",
+    ["Resounding Shout"] = "震撼呐喊",
+    -- Timer bars.
+    ["Big bomb on %s"] = "大炸弹还有 %s",
+    ["Little bomb on %s"] = "小炸弹还有 %s",
+    -- Message bars.
+    ["KNOCKBACK"] = "击飞",
+    ["SPEW"] = "喷吐",
+    ["SHOCKWAVE"] = "冲击波",
 })
 -- Default settings.
 mod:RegisterDefaultSetting("LineExperimentX89")
