@@ -95,6 +95,33 @@ mod:RegisterGermanLocale({
     ["MARKER east"] = "Osten",
     ["MARKER west"] = "Westen",
 })
+mod:RegisterChineseLocale({
+    -- Unit names.
+    ["Kuralak the Defiler"] = "亵渎者库拉莱克",
+    -- Datachron messages.
+    ["Kuralak the Defiler returns to the Archive Core"] = "库拉莱克回到档案馆核心去恢复力量",
+    ["Kuralak the Defiler causes a violent outbreak of corruption"] = "亵渎者库拉莱克导致腐化猛然爆发",
+    ["The corruption begins to fester"] = "腐化开始进一步恶化了",
+    ["has been anesthetized"] = "已被麻痹",
+    -- Cast.
+    ["Vanish into Darkness"] = "隐没在黑暗中",
+    ["Chromosome Corruption"] = "培育腐化",
+    -- Bar and messages.
+    ["Next outbreak"] = "下一次暴动",
+    ["Next eggs"] = "下一次变蛋",
+    ["Next switch tank"] = "下一次换坦克",
+    ["Next vanish"] = "下一次消失",
+    ["P2 SOON !"] = "即将进入第二阶段 !",
+    ["PHASE 2 !"] = "进入第二阶段 !",
+    ["VANISH"] = "消失",
+    ["OUTBREAK"] = "暴动",
+    ["EGGS"] = "蛋",
+    ["SWITCH TANK"] = "交换坦克",
+    ["MARKER north"] = "北",
+    ["MARKER south"] = "南",
+    ["MARKER east"] = "东",
+    ["MARKER west"] = "西",
+})
 -- Default settings.
 mod:RegisterDefaultSetting("PictureCorruption")
 mod:RegisterDefaultSetting("SoundOutbreak")
