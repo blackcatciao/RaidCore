@@ -42,7 +42,7 @@ local function GetLocale()
 	end
 	
 	-- Chinese
-	if strCancel == "XXXXXXX" then
+	if strCancel == "取消" then
 		return ktLocales[5]
 	end
 
